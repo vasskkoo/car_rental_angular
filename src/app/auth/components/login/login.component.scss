@@ -1,0 +1,86 @@
+.bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8; /* Light grey background */
+  }
+  
+  .parent {
+    width: 400px; /* Adjust the width as needed */
+    padding: 40px;
+    background-color: white; /* White background for form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-right: 75px;
+  }
+  
+  .imgDiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 85%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    border-color: #1890ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  
+  button {
+    width: 93%;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-top: 14px;
+  }
+  
+  button:hover {
+    background-color: #40a9ff;
+  }
+  
+  .login-form-margin {
+    margin-top: 20px;
+  }
+  
+  .a {
+    color: #1890ff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #40a9ff;
+  }
+  
+  .nz-spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nz-spin .ant-spin-dot {
+    font-size: 30px; /* Adjust size of the spinner */
+  }
+  

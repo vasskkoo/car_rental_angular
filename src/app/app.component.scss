@@ -1,0 +1,37 @@
+/* Style for the main header */
+.main-header {
+    background-color: #001529; /* Dark blue background */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: white;
+  }
+  
+  .navbar-title a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  .nav-links a {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #1890ff; /* Hover effect for links */
+  }
+  
+  .active {
+    color: #40a9ff; /* Active link color */
+  }
