@@ -13,13 +13,16 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UpdateCarComponent } from './components/update-car/update-car.component';
+import { GetBookingsComponent } from './components/get-bookings/get-bookings.component';
+import { NgZorroImportsModule } from 'src/app/NgZorroImportsModule';
 
 
 @NgModule({
   declarations: [
     AdminDashboardComponent,
     PostCarComponent,
-    UpdateCarComponent
+    UpdateCarComponent,
+    GetBookingsComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +35,8 @@ import { UpdateCarComponent } from './components/update-car/update-car.component
     NzSelectModule,
     NzDatePickerModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgZorroImportsModule
   ]
 })
 export class AdminModule { }
