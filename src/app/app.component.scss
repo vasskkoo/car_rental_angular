@@ -1,37 +1,52 @@
-/* Style for the main header */
 .main-header {
-    background-color: #001529; /* Dark blue background */
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    color: white;
-  }
-  
-  .navbar-title a {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 20px; /* Space between links */
-  }
-  
-  .nav-links a {
-    color: #000000;
-    font-size: 16px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #1890ff; /* Hover effect for links */
-  }
-  
-  .active {
-    color: #40a9ff; /* Active link color */
-  }
+  background-color: #f5f5f5; /* М'який світлий фон */
+  padding: 15px 40px; /* Більший відступ для простору */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Легка тінь для елегантного ефекту */
+  border-bottom: 2px solid #e0e0e0; /* Тонка лінія розмежування */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbat-title a {
+  font-size: 28px; /* Збільшений розмір шрифту */
+  font-weight: 700; /* Більш жирний текст */
+  color: #2c3e50; /* Насичений темно-синій колір */
+  text-decoration: none;
+  letter-spacing: 1px; /* Легка відстань між літерами */
+  transition: color 0.3s ease; /* Ефект при наведенні */
+}
+
+.navbat-title a:hover {
+  color: #1abc9c; /* Зміна кольору при наведенні */
+}
+
+.nav-links {
+  margin-left: auto; /* Вирівнювання кнопок праворуч */
+}
+
+.nav-links a {
+  margin-left: 20px; /* Більші відступи між кнопками */
+  font-size: 16px;
+  color: #2980b9;
+  text-transform: uppercase; /* Текст великими літерами для чіткості */
+  text-decoration: none;
+  padding: 8px 20px; /* Просторі кнопки */
+  border: 2px solid transparent; /* Додаємо бордер для ефекту при наведенні */
+  border-radius: 25px; /* Округлі краї для кнопок */
+  transition: all 0.3s ease; /* Плавний перехід при наведенні */
+}
+
+.nav-links a:hover {
+  background-color: #1abc9c; /* Зелений фон при наведенні */
+  color: white; /* Білий текст на фоні */
+  border: 2px solid #1abc9c; /* Бордер відповідає фону */
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Максимальна ширина для обмеження контенту */
+  margin: 0 auto; /* Центрування хедера */
+}
